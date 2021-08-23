@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Museu Nacional</title>
+</head>
+<body>
+    <!--Inicio Container-->
+    <div id="container">
+        <!--Inicio Header-->
+        <header>
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+            
+            <nav><!--Inicio navegação-->
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Exposição</a></li>
+                    <li><a href="">Pesquisa</a></li>
+                    <li><a href="">Acervo</a></li>
+                    <li><a href="">Vídeos</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav><!--Fim navegação-->
+        </header><!--/Fim Header-->
+
+        <div id="principal"><!--Inicio Principal-->
+
+            <div id="conteudo"><!--Inicio Conteudo-->
+                <section id="capa">
+                    <img src="imagens/museu.png">
+                </section>
+
+                <section id="postagem">
+                    <article id="video">
+                        <h3>VÍDEO: Conheça o Museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Mapa: Encontre o museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.825245036422!2d-43.2265289!3d-22.90576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1619698700797!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </article>
+
+                    <article id="exposicao">
+                        <h3>Exposição</h3>
+                        <ul>
+                            <li><a href="">Os assustadores insetos</a></li>
+                            <li><a href="">O Crânio de Luzia, a mulher mais antiga do Brasil</a></li>
+                            <li><a href="">Preguiça gigante e tigre-dentes-de-saber</a></li>
+                            <li><a href="">Plantas do Brasil Central</a></li>
+                            <li><a href="">Teresa Cristina: A Imperatiz Arqueóloga</a></li>
+                            <li><a href="">Arte com Dinossauros - Paleoarte</a></li>
+                            <li><a href=""><strong>Veja todos (65)</strong></a></li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+                        <p>
+                            A História do Brasil começa com a chegada dos primeiros humanos na América do Sul há pelo menos 22 000 anos.Em fins do século XV, quando do Tratado de Tordesilhas, toda a área hoje conhecida como Brasil era habitada por tribos seminômades que subsistiam da caça, pesca, coleta e agricultura. Em 22 de abril de 1500, Pedro Álvares Cabral, capitão-mor de expedição portuguesa a caminho das Índias, chegou em Porto Seguro na Bahia, tornando a região colônia do Reino de Portugal.</p>
+
+                            <p>
+                            Na década de 1530, a Coroa Portuguesa implementou uma política de colonização para a terra recém-descoberta que se organizou por meio da distribuição de capitanias hereditárias a membros da nobreza, porém esse sistema malogrou, uma vez que somente as capitanias de Pernambuco e São Vicente prosperaram. Em 1548 é criado o Estado do Brasil, com consequente instalação de um governo-geral, e no ano seguinte é fundada a primeira sede colonial, Salvador.</p>
+                        <a href=""><strong>Leia Mais</strong></a>
+                    </article>
+                </section>
+
+            </div><!--/Fim Conteudo-->
+
+            <aside><!--Inicio Aside-->
+                <section id="depoimento">
+                    <img src="imagens/depoimento.png">
+                </section>
+
+                <section id="visita"><!--Inicio Visita-->
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="data">Quantidade Pessoas</label>
+                            <input class="campo" style="width: 30px;" type="text" id="quantidade" value="1">
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+
+                    </form>
+                </section><!--/Fim Visita-->
+
+                <section id="galeria">
+                    <h4>Galeria de fotos</h4>
+                    <a href="">
+                        <img src="imagens/imagem1.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="imagens/imagem2.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="imagens/imagem3.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="imagens/imagem4.jpg" height="93" width="93">
+                    </a>
+                </section>
+
+            </aside><!--/Fim Aside-->
+
+            <footer>
+                <p>
+                    <a href="">Home</a>
+                    <a href="">Exposição</a>
+                    <a href="">Pesquisa</a>
+                    <a href="">Acervo</a>
+                    <a href="">Vídeos</a>
+                    <a href="">Fotos</a>
+                    <a href="">Contato</a>
+                </p>
+                <p>
+                    2.021 <a href="">Museu Nacional</a> - Todos os direitos reservados.
+                </p>
+            </footer>
+
+        </div><!--/Fim Principal-->
+    </div><!--/Fim Container-->
+</body>
+</html>
